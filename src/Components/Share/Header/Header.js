@@ -1,41 +1,35 @@
 import React from "react";
+import ShareButton from "../ShareButton/ShareButton";
 
 const Header = () => {
   const menuItems = (
     <>
-      <li>
-        <a>Item 1</a>
+      <li className="font-bold">
+        <a>Home</a>
       </li>
-      <li tabIndex={0}>
-        <a className="justify-between">
-          Parent
-          <svg
-            className="fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-          </svg>
-        </a>
-        <ul className="p-2">
-          <li>
-            <a>Submenu 1</a>
-          </li>
-          <li>
-            <a>Submenu 2</a>
-          </li>
-        </ul>
+      <li className="font-bold">
+        <a>Services</a>
       </li>
-      <li>
-        <a>Item 3</a>
+      <li className="font-bold">
+        <a>About</a>
+      </li>
+      <li className="font-bold">
+        <a>Blog</a>
+      </li>
+      <li className="font-bold">
+        <a>Testmonials</a>
+      </li>
+      <li className="font-bold">
+        <a>Report</a>
+      </li>
+      <li className="font-bold">
+        <a>Apply</a>
       </li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 px-64">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -56,16 +50,21 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            ></ul>
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+            >
+              {menuItems}
+            </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+          <div>
+            <div className="text-2xl font-extrabold">Cariloni</div>
+            <p>Mortgage Brokers</p>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1"></ul>
+          <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <ShareButton>Contact</ShareButton>
         </div>
       </div>
     </div>
