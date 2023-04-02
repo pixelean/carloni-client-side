@@ -1,28 +1,29 @@
 import React from "react";
 import "./Banner.css";
 import ShareButton from "../../Share/ShareButton/ShareButton";
+import BannerImg from "../../../Asset/Page1/Banner.png";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="bannerContainer card card-side bg-base-100 shadow-xl">
-        <div className="card-body">
-          <h2 className="card-title text-white text-5xl">
-            A <span className="highliteText"> FREE </span >No Obligation 
-            Call Should <span className="highliteText"> SAVE 
-            YOU</span> Thousands!
+    <div className="bannerContainer  bg-base-100 shadow-xl rounded-none">
+      <div className="flex items-center">
+        <div>
+          <h2 className=" text-white text-5xl leading-">
+            <div className="my-5">
+              {" "}
+              A <span className="highliteText"> FREE </span>No Obligation{" "}
+            </div>
+            <div className="my-5">
+              Call Should <span className="highliteText"> SAVE YOU</span>
+            </div>
+            <div className="my-5"> Thousands!</div>
+            
           </h2>
-
-          <ShareButton>Call Now 250-493-9111</ShareButton>
+          <div><ShareButton>Call Now 250-493-9111</ShareButton></div>
         </div>
-
-        <figure>
-          <img
-            src="/images/stock/photo-1635805737707-575885ab0820.jpg"
-            alt="Movie"
-          />
-        </figure>
       </div>
+
+      <img className="bannerImg" src={BannerImg} alt="Banner" />
     </div>
   );
 };

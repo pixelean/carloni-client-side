@@ -1,35 +1,38 @@
 import React from "react";
 import ShareButton from "../ShareButton/ShareButton";
+import { Link } from "react-router-dom";
+import "./Header.css"
+
 
 const Header = () => {
   const menuItems = (
     <>
       <li className="font-bold">
-        <a>Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li className="font-bold">
-        <a>Services</a>
+        <Link to="/">Services</Link>
       </li>
       <li className="font-bold">
-        <a>About</a>
+        <Link to="/">About</Link>
       </li>
       <li className="font-bold">
-        <a>Blog</a>
+        <Link to="/">Blog</Link>
       </li>
       <li className="font-bold">
-        <a>Testmonials</a>
+        <Link to="/">Testmonials</Link>
       </li>
       <li className="font-bold">
-        <a>Report</a>
+        <Link to="/">Report</Link>
       </li>
       <li className="font-bold">
-        <a>Apply</a>
+        <Link to="/">Apply</Link>
       </li>
     </>
   );
   return (
     <div>
-      <div className="navbar bg-base-100 px-64">
+      <div className="navContainer  navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -64,7 +67,7 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <ShareButton>Contact</ShareButton>
+          <button  className="btn btn-outline btn-white border-white text-white bg-slate-900">Contact</button>
         </div>
       </div>
     </div>
