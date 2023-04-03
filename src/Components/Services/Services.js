@@ -5,8 +5,9 @@ import ServicesList from './ServicesList/ServicesList';
 const Services = () => {
     return (
         <div>
-            <ServicesList></ServicesList>
+            
             <Banner></Banner>
+            <ServicesList></ServicesList>
         </div>
     );
 };

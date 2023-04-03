@@ -17,17 +17,17 @@ const Header = () => {
         <Link to="/about">About</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Blog</Link>
+        <Link to="/blogs">Blog</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Testmonials</Link>
+        <Link to="/testimonials">Testmonials</Link>
       </li>
       <li className="font-bold">
-        <Link to="/">Report</Link>
+        <Link to="/report">Report</Link>
       </li>
-      <li className="font-bold">
+      {/* <li className="font-bold">
         <Link to="/">Apply</Link>
-      </li>
+      </li> */}
     </>
   );
   return (

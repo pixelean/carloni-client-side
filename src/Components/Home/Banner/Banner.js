@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <div>
       {!pathname.includes("services") ? (
-        <div className="bannerContainer  bg-base-100 shadow-xl rounded-none">
+        <div className="bannerContainer  bg-base-100 shadow-xl rounded-none grid sm:grid-cols-1">
           <div className="flex items-center">
             <div>
               <h2 className=" text-white text-5xl leading-">
@@ -34,7 +34,7 @@ const Banner = () => {
           <img className="bannerImg" src={BannerImg} alt="Banner" />
         </div>
       ) : (
-        <div className="bannerContainer  bg-base-100 shadow-xl rounded-none">
+        <div className="bannerContainer  bg-base-100 shadow-xl rounded-none  grid sm:grid-cols-1">
           <div className="flex items-center mr-10">
             <div>
               <h2 className=" text-white text-5xl leading-">
