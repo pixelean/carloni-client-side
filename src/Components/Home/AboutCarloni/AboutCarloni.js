@@ -8,22 +8,10 @@ const AboutCarloni = () => {
   return (
     <div className="flex items-start carloniContainer ">
       <div className="carloni-section">
-        <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="800"
-          className="flex-1 hidden lg:block lg:mr-20"
-        >
-          <img className="" src={carloni} alt="" />
+        <div className="flex-1 hidden lg:block lg:mr-20">
+          <img className="mt-[-55px]" src={carloni} alt="" />
         </div>
-        <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="800"
-          className="flex-1 text-white"
-        >
+        <div className="flex-1 text-white">
           <h1 className="font-bold text-4xl">
             About <span className="subPng">Carloni Mortgage</span>
           </h1>

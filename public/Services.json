@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "Pre-Approval",
+    "description": "First time home buyer programs for as little as 5% downpayment, and much more Pre-qualify and shop with confidence.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 2,
+    "name": "Purchases",
+    "description": "Residential mortgages, investment mortgages, commercial lending, and much more. We manage all types of property purchases.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 3,
+    "name": "Refinances & Equity Loans",
+    "description": "Home equity loans, mortgage refinancing, debt consolidation, investment loans and much more.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 4,
+    "name": "Self-Employed",
+    "description": "We get small-to-medium business owners,freelancers, and entrepreneurs the loans and the terms they need.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 5,
+    "name": "Renewals",
+    "description": "We will renegotiate a contract with new terms that work even better for you.No need to switch banks!",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 6,
+    "name": "Private Mortgages",
+    "description": "Don't want to borrow from big banks? We'll help you get a loan through other sources.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 7,
+    "name": "Debt Consolidation",
+    "description": "Very few people know that they can go to a mortgage broker to consolidate debt. In reality,it’s the best course of action",
+    "img": "",
+    "logo": ""
+  },
+ 
+  {
+    "id": 8,
+    "name": "Home Equity Loans",
+    "description": "For the unfamiliar, a home equity loan is exactly what it sounds like. As a homeowner you can take out a line of credit by using your home as collateral. ",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 9,
+    "name": "Vacation Properties",
+    "description": "sk anyone where they envision the most idyllic vacation home in BC (or even Canada, for that matter) and they’ll tell you the Okanagan Valley.",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 10,
+    "name": "Commercial Mortgage",
+    "description": "The Southern Interior of BC is booming and more businesses are entering the fold with each new year. Penticton in particular offers an incredible opportunity",
+    "img": "",
+    "logo": ""
+  },
+  {
+    "id": 11,
+    "name": "Second Mortgage",
+    "description": "The Southern Interior of BC is booming and more businesses are entering the fold with each new year. Penticton in particular offers an incredible opportunity",
+    "img": "",
+    "logo": ""
+  }
+]
