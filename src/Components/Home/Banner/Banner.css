@@ -10,10 +10,12 @@
   font-weight: 700;
   font-size: 62px;
   line-height: 82px;
+  height: 52rem;
 }
 
 .highliteText {
   color: #f5f05e;
+  font-family: 'Barlow', sans-serif;
 }
 
 .bannerImg {
@@ -23,3 +25,7 @@
   /* top: 261px; */
   margin-bottom: 10%;
 }
+/* .servicesBannerImg{
+  width: 42.8rem;
+  height: 41.3rem;
+} */

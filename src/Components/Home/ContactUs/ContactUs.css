@@ -10,12 +10,24 @@
   line-height: 34px;
   text-align: right;
   color: #001e3e;
+  margin-top: 1rem;
+  /* font-family: 'Barlow', sans-serif; */
   
 }
-
+.googlemap{
+  height: 29.2rem;
+  width: 45.5rem;
+}
 .contactInfo > h1 {
   text-align: end;
   font-weight: 700;
   font-size: 42px;
   line-height: 50px;
+  Font-family: Barlow;
+}
+.contactUnderline{
+  background-image: url("../../../Asset/Page1/Rectangle72.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 55%;
 }

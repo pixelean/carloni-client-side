@@ -1,8 +1,7 @@
 import React from "react";
 import ShareButton from "../ShareButton/ShareButton";
 import { Link } from "react-router-dom";
-import "./Header.css"
-
+import "./Header.css";
 
 const Header = () => {
   const menuItems = (
@@ -10,7 +9,7 @@ const Header = () => {
       <li className="font-bold">
         <Link to="/">Home</Link>
       </li>
-      <li className="font-bold">
+      <li className="font-bold ">
         <Link to="/services">Services</Link>
       </li>
       <li className="font-bold">
@@ -53,7 +52,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+              className="menu menu-compact dropdown-content  mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
             >
               {menuItems}
             </ul>
@@ -67,7 +66,9 @@ const Header = () => {
           <ul className="menu menu-horizontal px-1">{menuItems}</ul>
         </div>
         <div className="navbar-end">
-          <button  className="btn btn-outline btn-white border-white text-white bg-slate-900">Contact</button>
+          <button className="btn btn-outline btn-white border-white text-white bg-slate-900">
+            <Link to="/contact">Contact</Link>
+          </button>
         </div>
       </div>
     </div>

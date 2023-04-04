@@ -1,11 +1,14 @@
 .dealContainer {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* grid-template-columns: repeat(2, 1fr); */
   padding: 5% 15%;
 }
 .dealExampleSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  width: 50%;
 }
 .ExampleDetails h1 {
   color: #001e3e;

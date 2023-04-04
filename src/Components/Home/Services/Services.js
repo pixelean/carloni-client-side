@@ -56,14 +56,14 @@ const Services = () => {
   return (
     <div className="servicesContainer">
       <div className="text-center my-10">
-        <h3 className="text-slate-800 font-bold text-5xl ">
-          Penticton Morgage Service
+        <h3 className="serviceTitle font-bold text-5xl ">
+        <span className="underlineArrow"> Penticton Morgage</span>  Service
         </h3>
-        <h1 className="text-2xl text-slate-600 mt-4">
+        <p className="serviceSubTitile">
           Our brokers work with banks,credit unicns,online lenders,private{" "}
           <br />
           companies and many others to find the mortgage that is best for YOU.
-        </h1>
+        </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {services.map((service) => (
@@ -76,13 +76,13 @@ const Services = () => {
               />
             </div>
             <div className="card-body">
-              <h2 className="card-title text-gray-700">{service.name}</h2>
+              <h2 className="card-title text-gray-700 font-bold">{service.name}</h2>
               <p>{service.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="text-center my-10">
+      <div className="text-center text-white my-10">
         <ShareButton className="">See More</ShareButton>
       </div>
     </div>

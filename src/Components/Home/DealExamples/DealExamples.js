@@ -6,7 +6,7 @@ import "./DealExamples.css";
 const DealExamples = () => {
   return (
     <div>
-        <h1 className="dealHeading">Deal Examples</h1>
+        <h1 className="dealHeading">Deal <span className="underlineArrow">Examples</span> </h1>
       <div className="dealContainer gap-x-10">
         <div className="dealExampleSection">
           <div className="ExampleDetails">

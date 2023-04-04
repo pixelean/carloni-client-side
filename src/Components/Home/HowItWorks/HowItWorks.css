@@ -1,10 +1,15 @@
 .how-work-container{
-    background-image: url("../../../Asset/Page1/Rectangle22.png");
+    background-image: url("../../../Asset/Page1/Rectangle22.png"),url("../../../Asset/Page1/Rectangle36.png");
     background-repeat: no-repeat;
+    /* background-position: top; */
     padding: 7% 15% ;
     background-size: cover;
 }
-
+.underlineArrow{
+    background-image: url("../../../Asset/Page1/Rectangle72.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 
 .numberContainer {
   height: 2rem;

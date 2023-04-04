@@ -15,7 +15,7 @@ const ServicesList = () => {
     <h1 className="serviceHeading">Penticton Mortgage Services</h1>
       <p className="serviceDescription">
         Our brokers work with banks, credit unions, online lenders, private
-        companies and many others to find the mortgage that is best for YOU.
+        companies <br/> and many others to find the mortgage that is best for YOU.
       </p>
     <div class="servicesList p-10 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5">
       
@@ -28,10 +28,10 @@ const ServicesList = () => {
             className="mt-[-30px] ml-5"
           ></img>
           <div class="px-6 py-6">
-            <div class="font-bold text-gray-700 text-xl mb-2">
+            <div class=" mb-2 card-title">
               {service.name}
             </div>
-            <p class="text-gray-700 text-base">{service.description}</p>
+            <p class=" text-base">{service.description}</p>
           </div>
         </div>
       ))}
