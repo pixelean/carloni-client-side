@@ -15,7 +15,7 @@ const Banner = () => {
           <div className="flex items-center">
             <div>
               <h2 className=" text-white text-5xl leading-">
-                <div className="my-5">
+                <div className="mb-5">
                   {" "}
                   A <span className="highliteText"> FREE </span>No Obligation{" "}
                 </div>
@@ -24,10 +24,7 @@ const Banner = () => {
                 </div>
                 <div className="my-5"> Thousands!</div>
               </h2>
-              <button className="btn btn-outline border-white text-white bg-none">
-                <img src={callVector} alt="call vector" className="mr-3"></img>{" "}
-                Call Now 250-493-9111
-              </button>
+              <ShareButton>Call Now 250-493-9111</ShareButton>
             </div>
           </div>
 

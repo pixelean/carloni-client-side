@@ -1,10 +1,12 @@
 import React from "react";
 import image from "../../../Asset/AboutPage/carloni.png";
+import "./AboutCarloni.css"
+
 
 const AboutCarloni = () => {
   return (
     <div className="dealContainer gap-x-10">
-      <div className="flex-1 carloniContent">
+      <div className=" carloniDetails">
         <h1 className="font-bold text-4xl">
           About <span className="underlineArrow ">Carloni Mortgage</span>
         </h1>
@@ -22,7 +24,7 @@ const AboutCarloni = () => {
         <p className="mt-5 ">-You've Come To The Right Place.</p>
       </div>
       <div className="ExampleImage">
-        <img src={image} alt="Example side img" className="mt-[50px]"></img>
+        <img src={image} alt="Example side img" className="mt-[50px] ml-[-50px]"></img>
       </div>
     </div>
   );

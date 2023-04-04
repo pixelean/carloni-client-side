@@ -8,7 +8,9 @@
 .dealExampleSection {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  width: 50%;
+  width: 30%;
+  row-gap: 7.3rem;
+  column-gap: 3.8rem;
 }
 .ExampleDetails h1 {
   color: #001e3e;
@@ -29,4 +31,6 @@
   background-position: right;
   background-repeat: no-repeat;
   background-position-y: top;
+  width: 622px;
+  height: 706px;
 }

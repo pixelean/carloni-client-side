@@ -21,9 +21,10 @@
 .bannerImg {
   width: 687px;
   height: 662px;
-  left: 966px;
+  /* left: 966px; */
   /* top: 261px; */
-  margin-bottom: 10%;
+  /* margin-bottom: %; */
+  margin-top: 11.3%;
 }
 /* .servicesBannerImg{
   width: 42.8rem;

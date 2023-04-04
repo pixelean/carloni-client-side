@@ -18,7 +18,7 @@ const BlogList = () => {
             <img class="w-full" src={blog.img} alt="Mountain" />
              {/* {console.log(blog?.date ,"dateeeeeeee")} */}
             <div class="px-6 py-6">
-              <p className="text-gray-700">{blog?.date}</p>
+              {/* <p className="text-gray-700">{blog?.date}</p> */}
               <div class="font-bold text-gray-700 text-xl mb-2">
                 {blog.name}
               </div>

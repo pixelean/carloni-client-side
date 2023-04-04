@@ -57,7 +57,7 @@ const Services = () => {
     <div className="servicesContainer">
       <div className="text-center my-10">
         <h3 className="serviceTitle font-bold text-5xl ">
-        <span className="underlineArrow"> Penticton Morgage</span>  Service
+          <span></span> Penticton Morgage Service
         </h3>
         <p className="serviceSubTitile">
           Our brokers work with banks,credit unicns,online lenders,private{" "}
@@ -76,14 +76,16 @@ const Services = () => {
               />
             </div>
             <div className="card-body">
-              <h2 className="card-title text-gray-700 font-bold">{service.name}</h2>
+              <h2 className="card-title text-gray-700 font-bold">
+                {service.name}
+              </h2>
               <p>{service.description}</p>
             </div>
           </div>
         ))}
       </div>
-      <div className="text-center text-white my-10">
-        <ShareButton className="">See More</ShareButton>
+      <div className="mx-auto">
+      <button className="btn gap-2 my-16 ">See More</button>
       </div>
     </div>
   );

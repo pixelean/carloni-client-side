@@ -1,8 +1,8 @@
-.contectSection {
-  /* padding: 5% 15% ; */
+.mapHeading {
+  padding: 0% 22.5% ;
 }
 .contactMap {
-  width: 1062px;
+  width: 1052px;
   height: 34.5rem;
   display: flex;
   justify-content: center;
@@ -16,7 +16,7 @@
   background-color: #133e6d;
   height: 649px;
   width: 1037px;
-  padding: 4rem 2rem;
+  padding: 4rem 3rem;
   margin: 0 auto;
   margin-top: 15%;
   position: relative;

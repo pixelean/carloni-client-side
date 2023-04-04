@@ -2,6 +2,7 @@ import React from "react";
 import ShareButton from "../ShareButton/ShareButton";
 import { Link } from "react-router-dom";
 import "./Header.css";
+import logo from "../../../Asset/Page1/navLogo.png"
 
 const Header = () => {
   const menuItems = (
@@ -58,8 +59,9 @@ const Header = () => {
             </ul>
           </div>
           <div>
-            <div className="text-2xl font-extrabold">Cariloni</div>
-            <p>Mortgage Brokers</p>
+            {/* <div className="text-2xl font-extrabold">Cariloni</div>
+            <p>Mortgage Brokers</p> */}
+            <img src={logo} alt="" className="navLogo"></img>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
