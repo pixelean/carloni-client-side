@@ -7,11 +7,11 @@ import "./AboutRene.css";
 const AboutRene = () => {
   return (
     <div className="reneContainer ">
-      <div className="carloni-section">
+      <div className="reni-section">
         <div className="AboutReneImg">
           <img className="reneImg" src={rene} alt="" />
         </div>
-        <div className="carloniDetails reneCarloniContent text-white">
+        <div className="reneCarloniContent text-white">
           <h1 className="font-bold text-4xl">
             About <span className="subPng">Rene Carloni</span>
           </h1>

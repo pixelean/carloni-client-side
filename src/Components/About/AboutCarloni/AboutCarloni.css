@@ -16,6 +16,10 @@
     .aboutCarloni{
         flex-direction: column;
     }
+    .aboutCarloni{
+      
+        padding: 5% 5%;
+    }
 }
 
 
@@ -34,4 +38,3 @@
     }
  }
 
- 
