@@ -30,3 +30,34 @@
   width: 42.8rem;
   height: 41.3rem;
 } */
+
+@media only screen and (max-width: 600px) {
+  .bannerContainer{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10% 5% ;
+    height: 36rem;
+    width: 100%;
+  }
+  .bannerContent div {
+    font-size: x-large;
+    line-height: 15px;
+    
+  }
+  .bannerImg{
+    width: 15rem;
+    height: 20rem;
+    margin-top: 2rem;
+    float: right !important;
+  }
+}
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .bannerContainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 10% 5% ;
+    /* height: 36rem;
+    width: 100%; */
+  }
+}

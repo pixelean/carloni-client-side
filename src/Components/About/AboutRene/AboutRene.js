@@ -6,12 +6,12 @@ import "./AboutRene.css";
 
 const AboutRene = () => {
   return (
-    <div className="flex items-start reneContainer ">
+    <div className="reneContainer ">
       <div className="carloni-section">
-        <div className="flex-1 hidden lg:block lg:mr-20">
-          <img className="" src={rene} alt="" />
+        <div className="AboutReneImg">
+          <img className="reneImg" src={rene} alt="" />
         </div>
-        <div className="flex-1 text-white">
+        <div className="carloniDetails reneCarloniContent text-white">
           <h1 className="font-bold text-4xl">
             About <span className="subPng">Rene Carloni</span>
           </h1>

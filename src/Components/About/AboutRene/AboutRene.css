@@ -4,12 +4,48 @@
     background-image: url("../../../Asset/AboutPage/Rectangle\ 22.png");
     background-repeat: no-repeat;
   }
+  .AboutReneImg{
+    width: 50%;
+  }
   .carloni-section {
-    padding: 5% 15% 5% 15% ;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    padding: 5% 15% ;
+    
   }
   .carloniBtn{
       background-color: #F5F05E;
   }
+
+  
+@media only screen and (max-width: 600px) {
+  .reneCarloniContent{
+    font-size: small;
+  }
+  .reneCarloniContent >{
+    font-size: large;
+  }
+  .carloni-section{
+    flex-direction: column;
+    padding: 3% 5%;
+    
+  }
+
+}
+
+
+/*--------------------------------------
+        Responsive For Tablet 
+--------------------------------------*/
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+  .aboutCarloni{
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+  }
+  .carloniDetails{
+      margin-left: 1rem;
+  }
+  .carloni-section{
+    padding: 5% 5%;
+  }
+}

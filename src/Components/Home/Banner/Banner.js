@@ -4,7 +4,7 @@ import ShareButton from "../../Share/ShareButton/ShareButton";
 import BannerImg from "../../../Asset/Page1/Banner.png";
 import { useLocation } from "react-router-dom";
 import servicesBanner from "../../../Asset/Page2/servicesBanner.png";
-import callVector from "../../../Asset/Page1/callVector.png";
+// import callVector from "../../../Asset/Page1/callVector.png";
 
 const Banner = () => {
   const { pathname } = useLocation();
@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="bannerContainer  bg-base-100 shadow-xl rounded-none grid sm:grid-cols-1">
           <div className="flex items-center">
             <div>
-              <h2 className=" text-white text-5xl leading-">
+              <h2 className="bannerContent text-white text-5xl leading-">
                 <div className="mb-5">
                   {" "}
                   A <span className="highliteText"> FREE </span>No Obligation{" "}
