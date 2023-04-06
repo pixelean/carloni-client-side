@@ -31,15 +31,16 @@
 @media only screen and (max-width: 600px) {
   .dealExampleSection {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1rem;
-    width: 100%;
-    row-gap: 2.3rem;
-    margin-top: 2rem;
+    grid-template-columns: repeat(1, 1fr) !important;
+    width: 100% !important;
+    /* row-gap: 2.3rem; */
+    row-gap: .3rem;
+    margin-top: 1rem !important;
+    row-gap: 2.3rem !important;
   }
   .dealContainer {
     flex-direction: column;
-    padding: 5% 5%;
+    /* padding: 5% 5%; */
   }
   .ExampleImage {
     margin-top: 10%;
