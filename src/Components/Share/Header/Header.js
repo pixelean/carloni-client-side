@@ -60,7 +60,9 @@ const Header = () => {
             </ul>
           </div>
           <div>
-            <img src={logo} alt="" className="navLogo"></img>
+           <Link to="/">
+           <img src={logo} alt="" className="navLogo"></img>
+           </Link>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">
