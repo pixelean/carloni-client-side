@@ -35,3 +35,105 @@
   top: -30%;
   right: -20%;
 }
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .contactMap {
+    width: 60%;
+    height: 34.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contactInformation {
+    /* background-image: url("../../Asset/Contact/Carloni.png");
+    background-repeat: no-repeat;
+    background-position: right top; */
+    background-color: #133e6d;
+    height: 50%;
+    width: 50%;
+    padding: 4rem 3rem;
+    margin: 0 auto;
+    margin-top: 15%;
+    position: relative;
+  }
+  .contactInformation > h1 {
+    font-size: xx-large;
+  }
+  .contactInformation > div>div >h1{
+    font-size: large;
+  }
+  .contactInformation > div>div >img{
+    height: 2rem;
+  }
+  .crloniImg {
+    position: absolute;
+    top: -30%;
+    right: -20%;
+    height: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contectSection{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .contactMap {
+    width: 70%;
+    height: 34.5rem;
+  }
+  .contactInformation {
+    height: 60%;
+    width: 70%;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    margin-top: 45%;
+    position: relative;
+  }
+  .contactInformation > h1 {
+    font-size: large;
+  }
+  .contactInformation > div>div >h1{
+    font-size: small;
+  }
+  .contactInformation > div>div >img{
+    height: 2rem;
+  }
+  .crloniImg {
+    position: absolute;
+    top: -30%;
+    right: -15%;
+    height: 60%;
+  }
+}
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .contactInformation {
+    height: 65%;
+    width: 70%;
+    padding: 1rem 1rem;
+    margin: 0 auto;
+    margin-top: 25%;
+    position: relative;
+  }
+  .contactMap {
+    width: 70%;
+    height: 34.5rem;
+  }
+  .crloniImg {
+    position: absolute;
+    top: -30%;
+    right: -15%;
+    height: 80%;
+  }
+  .contactInformation > h1 {
+    font-size: xx-large;
+  }
+  .contactInformation > div>div >h1{
+    font-size: xx-large;
+  }
+  .contactInformation > div>div >img{
+    height: 2rem;
+  }
+}

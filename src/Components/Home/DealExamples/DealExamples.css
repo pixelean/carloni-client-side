@@ -28,8 +28,6 @@
   margin-top: 4rem;
 }
 
-
-
 @media only screen and (max-width: 600px) {
   .dealExampleSection {
     display: grid;
@@ -38,19 +36,15 @@
     width: 100%;
     row-gap: 2.3rem;
     margin-top: 2rem;
-    
   }
   .dealContainer {
     flex-direction: column;
     padding: 5% 5%;
-   
   }
-  .ExampleImage{
+  .ExampleImage {
     margin-top: 10%;
   }
-
 }
-
 
 /*--------------------------------------
         Responsive For Tablet 
@@ -68,7 +62,26 @@
     flex-direction: column;
     padding: 5% 5%;
   }
-  .ExampleImage{
+  .ExampleImage {
     margin-top: 10%;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .ExampleImage {
+    width: 50%;
+  }
+  .ExampleDetails h1 {
+    font-size: 24px;
+    line-height: normal;
+    margin-bottom: .5rem;
+  }
+  .dealExampleSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+    width: 50%;
+    row-gap: 7.3rem;
+    column-gap: 3.8rem;
   }
 }
