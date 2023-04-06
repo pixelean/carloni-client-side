@@ -23,9 +23,14 @@
   font-size: 56px;
   line-height: 66px;
 }
+.blogDetailsSection h3 {
+  font-family: Barlow;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 30px;
+}
 .blogDetailsSection p {
   font-family: Poppins;
-  font-style: Bold;
   font-size: 16px;
   line-height: 26px;
 }

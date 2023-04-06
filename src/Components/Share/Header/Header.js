@@ -32,9 +32,9 @@ const Header = () => {
     </>
   );
   return (
-    <div>
-      <div className="navContainer  navbar bg-base-100">
-        <div className="navbar-start">
+    <div className="flex justify-between items-center navContainer ">
+      <div className="  navbar bg-base-100">
+        <div className="">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden ">
               <svg
@@ -68,13 +68,13 @@ const Header = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className=" menu-horizontal px-1">{menuItems}</ul>
         </div>
-        <div className="navbar-end">
+       
+      </div>
+      {/* <div className="navbar-end"> */}
           <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900">
             <Link to="/contact">Contact</Link>
           </button>
-        </div>
-      </div>
-
+        {/* </div> */}
      
     </div>
   );

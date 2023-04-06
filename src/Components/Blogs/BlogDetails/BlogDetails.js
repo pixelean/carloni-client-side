@@ -41,6 +41,12 @@ const BlogDetails = () => {
         <h1>{blog?.date}</h1>
         
         {/* <p>{blog?.description}</p> */}
+        {blog?.description?.map(d=><div>
+            <h3 className="my-5">{d.title}</h3>
+            <p className="mb-10">{d.content1}</p>
+            <p className="mb-10">{d.content2}</p>
+            <p className="mb-10">{d.content3}</p>
+        </div>)}
 
       </div>
     </div>
