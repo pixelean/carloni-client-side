@@ -19,9 +19,12 @@ const BlogDetails = () => {
   }, [id]);
   console.log(blog ,"anikkkkkkkkk")
 
-//   if (!blog) {
-//     return <div>Loading...</div>;
-//   }
+  if (!blog) {
+    return <div>Loading...</div>;
+  }
+
+
+
   return (
     <div>
       <div>
@@ -36,7 +39,7 @@ const BlogDetails = () => {
           <hr></hr>
         </div>
         <h1>{blog?.date}</h1>
-
+        
         {/* <p>{blog?.description}</p> */}
 
       </div>

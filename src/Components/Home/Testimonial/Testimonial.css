@@ -37,6 +37,9 @@
   .testimonialContainer {
     margin-bottom: 25%;
   }
+  .contentTestimonial{
+    padding: .8rem;
+  }
 }
 
 

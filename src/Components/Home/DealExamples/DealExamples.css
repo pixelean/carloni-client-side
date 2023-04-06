@@ -54,9 +54,9 @@
   .dealExampleSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    width: 100%;
+    width: 90% !important;
     row-gap: 2.3rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
   }
   .dealContainer {
     flex-direction: column;
