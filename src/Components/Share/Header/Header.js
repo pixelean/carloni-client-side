@@ -35,10 +35,10 @@ const Header = () => {
       <div className="navContainer  navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label tabIndex={0} className="btn btn-ghost lg:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-5 w-5 "
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -53,7 +53,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content  mt-3 p-2 shadow bg-base-100 rounded-box w-52 "
+              className="menu menu-compact dropdown-content  mt-3 p-2 shadow  rounded-box w-52 "
             >
               {menuItems}
             </ul>
