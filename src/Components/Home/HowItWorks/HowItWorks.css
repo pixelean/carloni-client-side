@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 600px) {
     .how-work-container{
-        padding: 5% 5% ;
+        padding: 5% 1% ;
         background-size: cover;
     }
     .how-work-section{
@@ -71,3 +71,8 @@
     }
  }
 
+ @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+    .how-work-container{
+        padding: 7% 10% ;
+    }
+ }

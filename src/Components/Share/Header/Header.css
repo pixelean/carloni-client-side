@@ -52,14 +52,17 @@
     margin-left: 5%;
     justify-content: start;
   }
+  .navContainer {
+    padding: 0% 5%;
+  }
 }
 
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .navLink {
     margin-left: 5%;
   }
   .navContainer {
-    padding: 0% 14%;
+    padding: 0% 10%;
     
   }
 }

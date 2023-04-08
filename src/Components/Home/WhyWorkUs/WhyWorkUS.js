@@ -51,8 +51,7 @@ const WhyWorkUS = () => {
         <div className="card ">
           <div className="card-body">
             <h2 className="font-bold text-slate-700 text-4xl ">
-              Why Work with{" "}
-              <span className="underlineArrow">Carloni Mortgage</span> Brokers?
+              Why Work with{" "}<span className="underlineArrow">Carloni Mortgage</span> Brokers?
             </h2>
             <p>
               Our brokers work with banks, credit unions, online lenders,

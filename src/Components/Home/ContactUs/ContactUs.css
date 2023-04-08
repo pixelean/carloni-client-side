@@ -1,7 +1,7 @@
 .contactContainer {
   padding: 5% 15%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
   align-items: center;
   margin-top: 15%;
@@ -33,20 +33,23 @@
   background-image: url("../../../Asset/Page1/Rectangle72.png");
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 55%;
+  background-size: 35%;
 }
 
 @media only screen and (max-width: 600px) {
   .contactContainer {
-    padding: 5% 5%;
+    padding: 5% 2%;
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     row-gap: 1.5rem;
     /* align-items: center; */
   }
+  .contactUnderline {
+    background-size: 45%;
+  }
   .googlemap {
     height: 29.2rem;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   }
   .contactInfo > h1 {
@@ -73,6 +76,9 @@
     padding: 5% 5%;
     display: flex;
   }
+  .contactUnderline {
+    background-size: 65%;
+  }
   .contactInfo {
     width: 50%;
   }
@@ -82,13 +88,15 @@
   }
 }
 
-
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   /* .googlemap {
     height: 29.2rem;
     width: 50%;
     margin: 0 auto;
   } */
+  .contactUnderline {
+    background-size: 46%;
+  }
 }
 @media only screen and (min-device-width: 1400px) and (max-device-width: 2524px) {
   .contactContainer {
