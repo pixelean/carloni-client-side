@@ -44,8 +44,7 @@ const Testimonial = () => {
           <div className="contentTestimonial z-10 relative py-10   w-full  min-h-360px rounded md:rounded-r-none  bg-opacity-70 md:bg-opacity-100 text-white">
             <div className=" mx-10 max-w-md flex flex-col">
               <h1 className="text-white text-4xl font-bold ">
-                Happy <span className="underlineArrow"> customers </span> say
-                about us
+                Happy <span className="underlineArrow"> customers </span> say about us
               </h1>
 
               {/* ::Quote SVG */}

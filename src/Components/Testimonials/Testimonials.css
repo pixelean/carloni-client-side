@@ -4,7 +4,16 @@
 .reviewSection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
+  /* flex-direction: column; */
+ 
+}
+.firstColumn{
+  flex-direction: column;
+  
+}
+.firstColumn > div{
+  margin-bottom: 1.5rem;
 }
 .tesitmonialBtn{
   display: flex;
@@ -17,6 +26,6 @@
   .reviewSection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 2rem;
+    row-gap: 1.5rem;
   }
 }

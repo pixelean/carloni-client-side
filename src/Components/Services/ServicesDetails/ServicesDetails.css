@@ -124,3 +124,12 @@
     background-size: 40%;
   }
 }
+
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .detailsTinyBox {
+    /* bottom: 5%; */
+    right: -8%;
+    top: 30% !important;
+  }
+}

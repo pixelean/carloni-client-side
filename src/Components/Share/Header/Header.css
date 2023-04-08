@@ -24,6 +24,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .navContainer {
+    padding: 0% 5%;
+  }
   .navLogo {
     width: 100px;
     height: 40px;
@@ -43,5 +46,14 @@
     margin-left: 5%;
     justify-content: start;
   }
+}
 
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1424px) {
+  .navLink {
+    margin-left: 5%;
+  }
+  .navContainer {
+    padding: 0% 14%;
+    
+  }
 }

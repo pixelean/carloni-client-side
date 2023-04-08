@@ -56,7 +56,7 @@ const ServicesDetails = () => {
             <h3>
               Get Started on the Home Buying Process with a Simple Phone Call
             </h3>
-            <button className="bg-blue-950 headerBtn  btn btn-outline btn-white border-white text-white">
+            <button className="bg-blue-950 btn btn-outline btn-white border-white text-white">
             <img src={callVector} alt="call vector" className="mr-3 callVector"></img> Call Now 250-493-9111
             </button>
           </div>

@@ -83,6 +83,14 @@
     gap: .5rem;
     width: 50%;
     row-gap: 7.3rem;
-    column-gap: 3.8rem;
+    column-gap: 2.8rem;
+  }
+  .dealContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* grid-template-columns: repeat(2, 1fr); */
+    padding: 5% 12%;
+    column-gap: 8%;
   }
 }
