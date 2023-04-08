@@ -39,8 +39,8 @@ const SignUp = () => {
   return (
     <div className="signUpContainer">
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
-          <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <div className="container py-24  flex flex-wrap items-center">
+          <div className="contactSideContent lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
             <h1 className="title-font font-medium text-6xl text-white">
               Carloni Report <p className="text-yellow-300">Sign Up</p>
             </h1>
@@ -49,6 +49,11 @@ const SignUp = () => {
               in Penticton, and exclusive deals we’ve funded. You’ll quickly
               find out why we’re the Southern Interior’s premier brokerage.
             </p>
+
+            <div className="contactHr">
+              <hr></hr>
+            </div>
+
             <p className="leading-relaxed mt-4 text-white">
               Note: These emails will not be too frequent, and we promise not to
               spam you. Plus, you can unsubscribe anytime.
@@ -57,7 +62,7 @@ const SignUp = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className="lg:w-2/6 md:w-1/2  rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+            className="contactForm lg:w-2/6 md:w-1/2  rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0"
           >
             <div className="relative mb-4">
               <label for="full-name" className="leading-7 text-sm  text-white">
@@ -105,12 +110,11 @@ const SignUp = () => {
             <span className="text-green-400 mb-2">{successMgs}</span>
             <span className="text-red-400 mb-2">{errorMgs}</span>
 
-            <button
+            <input
               type="submit"
+              value="Submit"
               className=" bg-yellow-300 font-bold border-0 py-2 px-8 focus:outline-none  rounded text-lg"
-            >
-              Submit
-            </button>
+            ></input>
           </form>
         </div>
       </section>

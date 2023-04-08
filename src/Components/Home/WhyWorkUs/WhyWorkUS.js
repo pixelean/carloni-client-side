@@ -66,7 +66,7 @@ const WhyWorkUS = () => {
             <img
               src={service.img}
               alt="services name"
-              className=" h-14 w-12 ms-9 mt-10"
+              className=" h-16 w-12 ms-9 mt-10"
             />
             <div className="card-body">
               <h2 className="card-title text-slate-700">{service.name}</h2>
