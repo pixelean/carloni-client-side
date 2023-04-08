@@ -17,11 +17,13 @@
 .card-body > p {
   color: #2d2d2d;
 }
+
 .card-body > h2 {
   font-size: 26px !important;
   font-family: Barlow;
   font-style: SemiBold;
 }
+
 .serviceSubTitile {
   font-family: Barlow;
   font-style: Regular;
