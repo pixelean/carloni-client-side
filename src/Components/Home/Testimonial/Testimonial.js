@@ -75,7 +75,7 @@ const Testimonial = () => {
           </div>
 
           {/* :BUTTONS */}
-          <div className="z-10 absolute -bottom-5 right-1/2 md:-right-3 py-1 px-3 space-x-3 flex bg-white text-yellow-100 transform translate-x-1/2 md:translate-x-0">
+          <div className="z-10 absolute bottom-12  right-1/2 md:-right-3 py-1 px-3 space-x-3 flex bg-white text-yellow-100 transform translate-x-1/2 md:translate-x-0 ">
             <button
               type="button"
               aria-label="previous"

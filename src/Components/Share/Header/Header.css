@@ -22,6 +22,12 @@
   background-position: bottom;
   /* margin-top: 20%; */
 }
+#sidebar:hover {
+  background-image: url("../../../Asset/Page1/Rectangle72.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* margin-top: 20%; */
+}
 
 @media only screen and (max-width: 600px) {
   .navContainer {
