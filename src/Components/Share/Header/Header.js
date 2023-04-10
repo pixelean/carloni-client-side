@@ -43,13 +43,13 @@ const Header = () => {
   return (
     <div className="flex justify-between items-center navContainer ">
       <div className="  navbar bg-base-100">
+        <div>
+          <Link to="/">
+            <img src={logo} alt="" className="navLogo"></img>
+          </Link>
+        </div>
         <div className="">
-          <div>
-            <Link to="/">
-              <img src={logo} alt="" className="navLogo"></img>
-            </Link>
-          </div>
-          <div className="dropdown  dropdown-end flex ">
+          <div className="dropdown  dropdown-end flex !ml-auto">
             <label tabIndex={0} className=" btn btn-ghost lg:hidden ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

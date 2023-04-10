@@ -38,8 +38,9 @@
     justify-content: space-between;
   }
   .navbar {
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
     justify-content: space-between !important;
+    
   }
   .navLogo {
     width: 100px;
@@ -63,6 +64,11 @@
   .navLink {
     margin-left: 5%;
     justify-content: start;
+  }
+  .navbar {
+    /* flex-direction: row-reverse; */
+    justify-content: space-between !important;
+    
   }
   .navContainer {
     padding: 0% 10% !important;
