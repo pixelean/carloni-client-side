@@ -99,7 +99,7 @@ const Header = () => {
                     Report
                   </NavLink>
                 </li>
-                <button className="headerBtn  btn btn-outline btn-white border-white text-white bg-slate-900 !ml-5  mb-3">
+                <button className="headerBtn primaryBtn  btn btn-outline btn-white border-white text-white bg-slate-900 !ml-5  mb-3">
                   <Link to="/contact">Contact</Link>
                 </button>
               </>
