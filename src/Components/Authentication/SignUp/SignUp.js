@@ -27,7 +27,7 @@ const SignUp = () => {
       )
       .then(
         (result) => {
-          setSuccessMgs("Email send successfully");
+          setSuccessMgs("Email sent successfully");
         },
         (error) => {
           setErrorMgs(error.text);
@@ -39,7 +39,7 @@ const SignUp = () => {
   return (
     <div className="signUpContainer">
       <section className="text-gray-600 body-font">
-        <div className="container py-24  flex flex-wrap items-center">
+        <div className="reportSection container py-24">
           <div className="contactSideContent lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
             <h1 className="title-font font-medium text-6xl text-white">
               Carloni Report <p className="text-yellow-300">Sign Up</p>
@@ -65,9 +65,14 @@ const SignUp = () => {
             className="contactForm lg:w-2/6 md:w-1/2  rounded-lg  flex flex-col md:ml-auto w-full mt-10 md:mt-0"
           >
             <div className="relative mb-4">
-              <label for="full-name" className="leading-7 text-sm  text-white">
-                First Name
-              </label>
+              <p>
+                <label
+                  for="full-name"
+                  className="leading-7 text-sm  text-white"
+                >
+                  First Name
+                </label>
+              </p>
               <input
                 type="text"
                 id="full-name"
@@ -78,9 +83,14 @@ const SignUp = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label for="full-name" className="leading-7 text-sm  text-white">
-                Last Name
-              </label>
+              <p>
+                <label
+                  for="full-name"
+                  className="leading-7 text-sm  text-white"
+                >
+                  Last Name
+                </label>
+              </p>
               <input
                 type="text"
                 id="full-name"
@@ -90,9 +100,11 @@ const SignUp = () => {
               />
             </div>
             <div className="relative mb-4">
-              <label for="email" className="leading-7 text-sm  text-white">
-                Email
-              </label>
+              <p>
+                <label for="email" className="leading-7 text-sm  text-white">
+                  Email
+                </label>
+              </p>
               <input
                 type="email"
                 id="email"
@@ -107,14 +119,15 @@ const SignUp = () => {
               sitekey="6Lex9mglAAAAAJy2yzNKM5R9J1Hb4P35echLnduv"
               onChange={onChange}
             /> */}
-            <span className="text-green-400 mb-2">{successMgs}</span>
-            <span className="text-red-400 mb-2">{errorMgs}</span>
 
             <input
               type="submit"
               value="Submit"
               className=" bg-yellow-300 font-bold border-0 py-2 px-8 focus:outline-none  rounded text-lg"
             ></input>
+
+            <span className="text-green-400 mb-2">{successMgs}</span>
+            <span className="text-red-400 mb-2">{errorMgs}</span>
           </form>
         </div>
       </section>

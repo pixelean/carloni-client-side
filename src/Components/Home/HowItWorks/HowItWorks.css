@@ -9,6 +9,8 @@
     display: grid;
     grid-template-columns: repeat(4,1fr);
     row-gap: 5px;
+    
+
 }
 .underlineArrow{
     background-image: url("../../../Asset/Page1/Rectangle72.png");
@@ -37,7 +39,9 @@
     color: #195ca5;
     background-color: white;
 }
-
+.how-work {
+    transition: background-color 1s ease;
+}
 .how-work:hover {
     background-color: #195ca5;
 }

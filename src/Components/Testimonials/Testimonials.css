@@ -19,13 +19,32 @@
   display: flex;
   justify-content: center;
 }
+.tesitmonialBtn button{
+  background-color: #133E6D;
+}
 @media only screen and (max-width: 600px) {
   .reviewContainer {
     padding: 5% 5%;
+  }
+  .tesitmonialBtn{
+    width: 48%;
+    text-align: start;
+    justify-content: start !important;
+    margin: 0%;
   }
   .reviewSection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 1.5rem;
+  }
+}
+@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+  .reviewContainer {
+    padding: 5% 10%;
+  }
+}
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .reviewContainer {
+    padding: 5% 10%;
   }
 }

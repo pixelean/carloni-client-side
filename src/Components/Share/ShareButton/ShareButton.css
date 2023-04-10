@@ -4,7 +4,14 @@
   font-weight: 600;
   font-size: 20px;
 }
-
+.primaryBtn:hover{
+  background-color: white;
+  color: #162E47;
+}
+.primaryBtn:hover .callVector{
+  color: #162E47 !important;
+  
+}
 @media only screen and (max-width: 600px) {
   .primaryBtn {
     width: 65%;

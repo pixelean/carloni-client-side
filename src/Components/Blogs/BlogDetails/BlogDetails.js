@@ -17,13 +17,11 @@ const BlogDetails = () => {
         setBlog(newData);
       });
   }, [id]);
-  console.log(blog ,"anikkkkkkkkk")
+  console.log(blog, "anikkkkkkkkk");
 
   if (!blog) {
     return <div>Loading...</div>;
   }
-
-
 
   return (
     <div>
@@ -39,15 +37,25 @@ const BlogDetails = () => {
           <hr></hr>
         </div>
         <h1>{blog?.date}</h1>
-        
+
         {/* <p>{blog?.description}</p> */}
-        {blog?.description?.map(d=><div>
+        {blog?.description?.map((d) => (
+          <div>
             <h3 className="my-5">{d.title}</h3>
             <p className="mb-10">{d.content1}</p>
             <p className="mb-10">{d.content2}</p>
             <p className="mb-10">{d.content3}</p>
-        </div>)}
+          </div>
+        ))}
 
+        <div className="authorContainer flex items-center ">
+          <img src={blog.authorImg} alt=""></img>
+          <div className="author ml-5">
+            <p>{blog.author}</p>
+            <h5 className="authorName">{blog.authorName}</h5>
+            <p className="aboutAuthor">{blog.aboutAuthor}</p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -44,6 +44,20 @@
   font-family: "Barlow";
   margin-top: 5px;
 }
+.contactBannerComponent > h1 {
+  font-size: 62px;
+  line-height: 82px;
+  font-weight: 700;
+  font-family: "Barlow";
+  margin-top: 5px;
+}
+.blogBannerComponent > h1 {
+  font-size: 62px;
+  line-height: 82px;
+  font-weight: 700;
+  font-family: "Barlow";
+  margin-top: 5px;
+}
 .commonBannerComponent > h3 {
   font-size: 32px;
   line-height: 38px;
@@ -55,13 +69,20 @@
     line-height: 35px;
     margin-top: 5px;
   }
+  .contactBannerComponent > h1 {
+    font-size: xx-large;
+    line-height: 50px;
+    margin-top: 5px;
+  }
   .commonBannerComponent > h3 {
     font-size: medium;
     line-height: 35px;
   }
   .blogBannerComponent {
     padding: 5% 5%;
+    
   }
+
   .contactBannerComponent {
     padding: 5% 5%;
   }
@@ -73,15 +94,19 @@
   }
   .blogBannerComponent >h1{
     font-size: 42px;
+    line-height: 52px;
   }
   .contactBannerComponent >h1{
     font-size: 42px;
+    line-height: 52px;
   }
   .aboutBannerComponent >h1{
     font-size: 42px;
+    line-height: 52px;
   }
   .testimonialBannerComponent >h1{
     font-size: 42px;
+    line-height: 52px;
   }
   .commonBannerComponent > h3 {
     font-size: 16px !important;
@@ -95,7 +120,7 @@
         Responsive For Tablet 
 --------------------------------------*/
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 1030px) {
   .commonBannerComponent > h1 {
     font-size: xx-large;
     line-height: 35px;
@@ -106,19 +131,54 @@
     line-height: 35px;
   }
   .blogBannerComponent {
-    padding: 5% 5%;
+    padding: 5% 10%;
+    line-height: 35px;
   }
   .contactBannerComponent {
-    padding: 5% 5%;
+    padding: 5% 10%;
   }
   .aboutBannerComponent {
-    padding: 5% 5%;
+    padding: 5% 10%;
   }
   .testimonialBannerComponent {
-    padding: 5% 5%;
+    padding: 5% 10%;
   }
   .commonBannerComponent {
-    padding: 5% 5%;
+    padding: 5% 10%;
   }
 }
+@media only screen and (min-device-width: 1030px) and (max-device-width: 1480px) {
+  .blogBannerComponent {
+    padding: 5% 10%;
+  }
+  .contactBannerComponent {
+    padding: 5% 10%;
+  }
+  .aboutBannerComponent {
+    padding: 5% 10%;
+  }
+  .testimonialBannerComponent {
+    padding: 5% 10%;
+  }
+  .commonBannerComponent {
+    padding: 5% 10%;
+  }
+}
+/* @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+  .blogBannerComponent {
+    padding: 5% 10%;
+  }
+  .contactBannerComponent {
+    padding: 5% 10%;
+  }
+  .aboutBannerComponent {
+    padding: 5% 10%;
+  }
+  .testimonialBannerComponent {
+    padding: 5% 10%;
+  }
+  .commonBannerComponent {
+    padding: 5% 10%;
+  }
+ } */
 

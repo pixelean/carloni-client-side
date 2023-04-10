@@ -112,7 +112,7 @@ const Testimonials = () => {
       </div>
 
       <div className="text-center mt-16 tesitmonialBtn">
-        <button className="btn bg-sky-900 ">Load More</button>
+        <button className="primaryBtn btn ">Load More</button>
       </div>
     </div>
   );
