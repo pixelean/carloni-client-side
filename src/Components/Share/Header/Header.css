@@ -59,13 +59,18 @@
   }
 }
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
   .navLink {
     margin-left: 5%;
     justify-content: start;
   }
   .navContainer {
     padding: 0% 10% !important;
+  }
+  .headerBtn {
+    margin-left: 5px !important;
+    background-color: #133e6d;
+    font-size: medium;
   }
 
   #sidebar:hover {
@@ -80,4 +85,5 @@
   .navContainer {
     padding: 0% 10% !important;
   }
+  
 }

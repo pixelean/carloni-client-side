@@ -104,6 +104,9 @@
     font-size: 42px;
     line-height: 52px;
   }
+  .aboutBannerComponent >h3{
+    font-size: 22px;
+  }
   .testimonialBannerComponent >h1{
     font-size: 42px;
     line-height: 52px;
@@ -140,11 +143,30 @@
   .aboutBannerComponent {
     padding: 5% 10%;
   }
+  .aboutBannerComponent >h3{
+    font-size: 24px;
+  }
   .testimonialBannerComponent {
     padding: 5% 10%;
   }
   .commonBannerComponent {
     padding: 5% 10%;
+  }
+  .blogBannerComponent >h1{
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .contactBannerComponent >h1{
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .aboutBannerComponent >h1{
+    font-size: 42px;
+    line-height: 52px;
+  }
+  .testimonialBannerComponent >h1{
+    font-size: 42px;
+    line-height: 52px;
   }
 }
 @media only screen and (min-device-width: 1030px) and (max-device-width: 1480px) {

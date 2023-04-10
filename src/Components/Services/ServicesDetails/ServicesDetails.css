@@ -9,6 +9,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+ 
 }
 .detailsContent {
   position: relative;
@@ -85,10 +86,13 @@
   .detailsImgSection {
     background-image: url("../../../Asset/Details/Rectangle\ 66.png");
     background-repeat: no-repeat;
+   
   }
+
   .detailsImg {
     margin-bottom: -5%;
     margin-left: 10%;
+    object-fit: cover !important;
   }
   .detailsTinyBox {
     /* background-image: url("../../../Asset/Details/Rectangle\ 35.png");

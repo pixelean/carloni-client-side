@@ -84,8 +84,8 @@ const Services = () => {
           </div>
         ))}
       </div>
-      <div className="text-center mt-16 tesitmonialBtn">
-        <button className="primaryBtn btn ">See More</button>
+      <div className=" tesitmonialBtn !mt-8">
+        <button className=" btn ">See More</button>
       </div>
     </div>
   );

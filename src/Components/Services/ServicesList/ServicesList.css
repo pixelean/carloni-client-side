@@ -1,7 +1,7 @@
 .servicesList {
 }
 .servicesContainer {
-  padding: 5% 15%;
+  padding: 5% 13%;
 }
 .serviceHeading {
   font-style: normal;
@@ -20,6 +20,7 @@
   text-align: center;
   font-family: Barlow;
   color: #001e3e;
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -52,6 +53,10 @@
 @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
   .servicesContainer {
     padding: 5% 10%;
+  }
+  .serviceDescription {
+   
+    margin-bottom: 6%;
   }
   .servicesList {
     padding: 0%;
