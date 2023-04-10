@@ -7,7 +7,7 @@ const ShareButton = ({children}) => {
     return (
         <div>
              <button className="primaryBtn btn btn-outline border-white text-white bg-none">
-                <FaPhone className='mr-3' />
+                <FaPhone className='mr-3 rotate-90' />
                 {children}
               </button>
         </div>

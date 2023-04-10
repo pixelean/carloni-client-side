@@ -1,7 +1,12 @@
 .work-us-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
+  gap: 25px;
+}
+.workUsCard {
+  width: 410px;
+  height: 379px;
+  border-radius: 10px;
 }
 .card-body > h2 {
   font-family: Barlow;
@@ -31,7 +36,6 @@
 .first-card-body {
   padding: 0% !important;
 }
-
 
 @media only screen and (max-width: 600px) {
   .workUsContainer {

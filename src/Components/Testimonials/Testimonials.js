@@ -139,6 +139,9 @@ const Testimonials = () => {
       <div className="text-center mt-16 tesitmonialBtn">
         <button className=" btn ">Load More</button>
       </div>
+      {/* <div className="secondaryBtn">
+          <p>Load More</p>
+      </div> */}
     </div>
   );
 };

@@ -35,9 +35,11 @@ const Header = () => {
           Report
         </NavLink>
       </li>
-      <button className="headerBtn  btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
-        <Link to="/contact">Contact</Link>
-      </button>
+      <Link to="/contact">
+        <button className="headerBtn  btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
+          Contact
+        </button>
+      </Link>
     </>
   );
   return (

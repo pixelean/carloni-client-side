@@ -67,7 +67,7 @@ const Services = () => {
       </div>
       <div className="servicesSection">
         {services.map((service) => (
-          <div className="card bg-base-100 shadow-xl">
+          <div className="servicesCard card bg-base-100 shadow-lg hover:shadow-2xl">
             <div className="pt-10 ps-10">
               <img
                 src={service.img}

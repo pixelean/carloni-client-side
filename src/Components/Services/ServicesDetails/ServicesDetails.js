@@ -4,6 +4,8 @@ import CommonBanner from "../../Share/CommonBanner/CommonBanner";
 import detailsImg from "../../../Asset/Details/home.png";
 import callVector from "../../../Asset/Page1/callVector.png";
 import "./ServicesDetails.css";
+import { FaPhone} from "react-icons/fa";
+
 
 const ServicesDetails = () => {
   const [data, setData] = useState([]);
@@ -56,8 +58,8 @@ const ServicesDetails = () => {
             <h3>
               Get Started on the Home Buying Process with a Simple Phone Call
             </h3>
-            <button className="bg-blue-950 btn btn-outline btn-white border-white text-white">
-            <img src={callVector} alt="call vector" className="mr-3 callVector"></img> Call Now 250-493-9111
+            <button className="bg-blue-950 btn btn-outline btn-white border-white hover:bg-white hover:text-gray-900 text-white">
+            <FaPhone className="mr-3 rotate-90"></FaPhone> Call Now 250-493-9111
             </button>
           </div>
         </div>

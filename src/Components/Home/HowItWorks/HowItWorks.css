@@ -1,23 +1,27 @@
-.how-work-container{
-    background-image: url("../../../Asset/Page1/Rectangle22.png"),url("../../../Asset/Page1/Rectangle36.png");
-    background-repeat: no-repeat;
-    /* background-position: top; */
-    padding: 7% 15% ;
-    background-size: cover;
+.how-work-container {
+  background-image: url("../../../Asset/Page1/Rectangle22.png"),
+    url("../../../Asset/Page1/Rectangle36.png");
+  background-repeat: no-repeat;
+  /* background-position: top; */
+  padding: 7% 15%;
+  background-size: cover;
 }
-.how-work-section{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    row-gap: 5px;
-    
-
+.how-work-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 5px;
 }
-.underlineArrow{
-    background-image: url("../../../Asset/Page1/Rectangle72.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
+.underlineArrow {
+  background-image: url("../../../Asset/Page1/Rectangle72.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
-
+.circleArrow{
+    height: 6rem;
+    width: 6rem;
+    background-color: rgba(25, 92, 165, 0.15);
+    border-radius: 3px solid rgba(8, 99, 197, 0.5);
+}
 .numberContainer {
   height: 2rem;
   width: 2rem;
@@ -29,6 +33,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: bold;
+  /* background-image: url("../../../Asset/Page1/Ellipse\ 18.png");
+  background-repeat: no-repeat;
+  transform: translateY(50%); */
 }
 /* .numberContainer:hover {
     color: #195ca5;
@@ -36,47 +44,63 @@
 } */
 
 .how-work:hover .numberContainer {
-    color: #195ca5;
-    background-color: white;
+  color: #195ca5;
+  background-color: white;
+  transition: background-color 0.1s ease;
 }
 .how-work {
-    transition: background-color 1s ease;
+  transition: background-color 0.5s ease;
+  width: 334px;
+  height: 461px;
 }
 .how-work:hover {
-    background-color: #195ca5;
+  background-color: #195ca5;
+}
+
+.how-work h1 {
+  font-family: Barlow;
+  font-weight: Bold;
+  font-size: 26px;
+  line-height: 31px;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.how-work ~ p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 @media only screen and (max-width: 600px) {
-    .how-work-container{
-        padding: 5% 1% ;
-        background-size: cover;
-    }
-    .how-work-section{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        row-gap: 5px;
-    }
+  .how-work-container {
+    padding: 5% 1%;
+    background-size: cover;
+  }
+  .how-work-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 5px;
+  }
 }
-
 
 /*--------------------------------------
           Responsive For Tablet 
  --------------------------------------*/
 
- @media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
-    .how-work-container{
-        padding: 5% 5% ;
-        background-size: cover;
-    }
-    .how-work-section{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        row-gap: 5px;
-    }
- }
+@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+  .how-work-container {
+    padding: 5% 5%;
+    background-size: cover;
+  }
+  .how-work-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5px;
+  }
+}
 
- @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
-    .how-work-container{
-        padding: 7% 10% ;
-    }
- }
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
+  .how-work-container {
+    padding: 7% 10%;
+  }
+}

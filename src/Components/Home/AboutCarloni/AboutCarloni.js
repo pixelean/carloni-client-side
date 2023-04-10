@@ -33,7 +33,7 @@ const AboutCarloni = () => {
             <button className="btn btn-outline carloniBtn">
               <Link to="/">Read More</Link>
             </button>
-            <p className="ms-5 text-yellow-200 flex">About Rene Carluni <img src={arrow} alt="arrow" className="ms-3"></img></p>
+            <p className="ms-5 text-yellow-200 flex">About Rene Carluni <img src={arrow} alt="arrow" className="ms-3 w-10"></img></p>
           </div>
           <div className="boxArrow">
              

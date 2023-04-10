@@ -1,7 +1,8 @@
 .servicesSection {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  row-gap: 25px;
+  column-gap: 25px;
 }
 .servicesContainer {
   padding: 5% 15%;
@@ -17,11 +18,20 @@
 .card-body > p {
   color: #2d2d2d;
 }
-
+.servicesCard {
+  width: 410px;
+  height: 323px;
+  border-radius: 10px;
+  box-shadow: rgba(15, 36, 167, 0.07);
+}
+.servicesCard:hover {
+  box-shadow: rgba(28, 30, 43, 0.1) !important;
+}
 .card-body > h2 {
   font-size: 26px !important;
   font-family: Barlow;
   font-style: SemiBold;
+  margin-bottom: 18px;
 }
 
 .serviceSubTitile {
