@@ -62,7 +62,7 @@ const WhyWorkUS = () => {
         </div>
 
         {whyWorkWithUS.map((service) => (
-          <div className="workUsCard card bg-base-100 shadow-md hover:shadow-2xl">
+          <div className="workUsCard workUsBorder card bg-base-100 shadow-md hover:shadow-2xl">
             <img
               src={service.img}
               alt="services name"

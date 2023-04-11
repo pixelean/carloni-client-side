@@ -15,23 +15,26 @@
   color: #001e3e;
   font-family: Barlow;
 }
-.card-body > p {
+.serviceDescription > p {
   color: #2d2d2d;
+  text-align: start;
 }
-.servicesCard {
-  width: 410px;
+.serviceCards {
+  width: 410px ;
   height: 323px;
   border-radius: 10px;
   box-shadow: rgba(15, 36, 167, 0.07);
+  padding: 30px;
 }
-.servicesCard:hover {
+.serviceCards:hover {
   box-shadow: rgba(28, 30, 43, 0.1) !important;
 }
-.card-body > h2 {
+.serviceDescription > h2 {
   font-size: 26px !important;
   font-family: Barlow;
   font-style: SemiBold;
   margin-bottom: 18px;
+  
 }
 
 .serviceSubTitile {
@@ -45,30 +48,65 @@
 .serviceIcon {
   width: 60px;
   height: 60px;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 600px) {
   .servicesSection {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 10px;
+    /* gap: 10px; */
+    row-gap: 30px;
+  }
+  .serviceCards {
+    width: 98% ;
+    height: 100%;
+    padding: 20px;
   }
   .servicesContainer {
     padding: 5% 5% !important;
   }
   .serviceTitle {
-    font-size: xx-large;
+    font-size: 24px;
   }
-  .card-body > p {
+  .serviceSubTitile{
+    font-size: 16px;
+  }
+  .serviceDescription > h2 {
+    font-size: 24px !important;
+  }
+  .serviceDescription > p {
     font-size: medium;
   }
 }
 
-@media only screen and (min-device-width: 578px) and (max-device-width: 1000px) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 776px) {
   .servicesSection {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* gap: 25px; */
+    row-gap: 35px !important;
+    column-gap: 25px;
+  }
+  .serviceCards {
+    width: 90% ;
+    height: 100%;
+    padding: 20px;
+  }
+  .servicesContainer {
+    padding: 5% 5% !important;
+  }
+}
+@media only screen and (min-device-width: 776px) and (max-device-width: 1034px) {
+  .servicesSection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+  }
+  .serviceCards {
+    width: 90% ;
+    height: 100%;
+    padding: 20px;
   }
   .servicesContainer {
     padding: 5% 5% !important;
@@ -78,5 +116,10 @@
 @media only screen and (min-device-width: 1000px) and (max-device-width: 1448px) {
   .servicesContainer {
     padding: 5% 10% !important;
+  }
+  .serviceCards {
+    width: 90% ;
+    height: 100%;
+    padding: 20px;
   }
 }

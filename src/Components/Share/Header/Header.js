@@ -36,7 +36,7 @@ const Header = () => {
         </NavLink>
       </li>
       <Link to="/contact">
-        <button className="headerBtn  btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
+        <button className="headerBtn btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
           Contact
         </button>
       </Link>

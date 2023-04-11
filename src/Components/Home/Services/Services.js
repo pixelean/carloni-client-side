@@ -65,18 +65,18 @@ const Services = () => {
           companies and many others to find the mortgage that is best for YOU.
         </p>
       </div>
-      <div className="servicesSection">
+      <div className="servicesSection ">
         {services.map((service) => (
-          <div className="servicesCard card bg-base-100 shadow-lg hover:shadow-2xl">
-            <div className="pt-10 ps-10">
+          <div className="serviceCards  bg-base-100 shadow-lg hover:shadow-2xl ">
+            <div className="">
               <img
                 src={service.img}
                 alt="services name"
                 className="rounded-xl serviceIcon "
               />
             </div>
-            <div className="card-body">
-              <h2 className="card-title text-gray-700 font-bold">
+            <div className="serviceDescription">
+              <h2 className="card-title text-start text-gray-700 font-bold">
                 {service.name}
               </h2>
               <p>{service.description}</p>

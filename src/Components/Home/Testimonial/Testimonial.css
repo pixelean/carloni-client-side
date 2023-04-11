@@ -13,6 +13,11 @@
   font-size: 42px;
   line-height: 58px;
 }
+.contentTestimonial > div > p{
+  font-family: Barlow;
+  font-size: 18px;
+  line-height: 28px;
+}
 
 @media only screen and (max-width: 600px) {
   .contentTestimonial {
