@@ -22,8 +22,10 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <div className="numberContainer">
-            <p>02</p>
+          <div className="circleArrow">
+            <div className="numberContainer">
+              <p>02</p>
+            </div>
           </div>
           <h1 className="">We Shop</h1>
           <p>
@@ -33,8 +35,10 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <div className="numberContainer">
-            <p>03</p>
+          <div className="circleArrow">
+            <div className="numberContainer">
+              <p>03</p>
+            </div>
           </div>
           <h1 className="">You Select</h1>
           <p>
@@ -44,8 +48,10 @@ const HowItWorks = () => {
           </p>
         </div>
         <div className="how-work max-w-sm py-12 p-6 text-white border-gray-200 rounded-lg shadow  dark:bg-gray-800 dark:border-gray-700">
-          <div className="numberContainer">
-            <p>04</p>
+          <div className="circleArrow">
+            <div className="numberContainer">
+              <p>04</p>
+            </div>
           </div>
           <h1 className="">You Save</h1>
           <p>
