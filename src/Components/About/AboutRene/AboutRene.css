@@ -1,7 +1,7 @@
 .reneContainer {
   /* background-color:  #132F50F2;; */
   /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
-  background-image: url("../../../Asset/AboutPage/Rectangle\ 22.png");
+  background-image: url("../../../Asset/AboutPage/Rectangle\ 22.png"),url("../../../Asset/AboutPage/Vector\ 17.png");
   background-repeat: no-repeat;
 }
 

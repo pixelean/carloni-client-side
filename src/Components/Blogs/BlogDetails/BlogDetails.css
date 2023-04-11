@@ -1,5 +1,4 @@
-.blogContainer{
-  
+.blogContainer {
 }
 .blogBanner {
   background-image: linear-gradient(115.66deg, #18314b 9.36%, #14283e 49.81%);
@@ -9,29 +8,29 @@
 }
 
 .blogBannerImg {
-  width: 70%;
-  height: 80%;
+  width: 1497px;
+  height: 777px;
   /* width: 497px;
   height: 377px; */
   position: absolute;
-  top: 40%;
-  left: 15%;
-  object-fit: fill;
-  
+  top: 20%;
+  left: 10%;
+  object-fit: cover;
 }
 .blogDetailsSection {
   padding: 2% 20%;
   margin-top: 7%;
 }
-.authorSection{
+.authorSection {
   padding: 0% 15%;
   margin-bottom: 3rem;
 }
-.blogDetailsSection >h1 {
+.blogDetailsSection > h1 {
   font-family: Barlow;
   font-weight: bold;
   font-size: 56px;
   line-height: 66px;
+  margin-top: 5% !important;
 }
 .blogDetailsSection h3 {
   font-family: Barlow;
@@ -44,27 +43,44 @@
   font-size: 16px;
   line-height: 26px;
 }
-
+.blogDate {
+  font-family: Barlow;
+  font-size: 24px !important;
+  line-height: 26px;
+  color: #333333 !important;
+}
+.blogSubInfo {
+  display: flex;
+  align-items: center !important;
+  margin-top: 3%;
+}
+.blogSubInfo > p {
+  margin-left: 4%;
+  font-family: Barlow;
+  font-size: 24px !important;
+  line-height: 26px;
+  color: #333333 !important;
+}
 .blogDevider {
   height: 0.1rem;
   background-color: gray;
   margin: 3% 0%;
 }
-.blogContent > h3{
+.blogContent > h3 {
   font-family: Barlow;
   font-weight: 800;
   font-size: 24px;
   line-height: 30px;
 }
 
-.authorName {
+.author > h5 {
   font-family: Poppins;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 24px !important;
   line-height: 36px;
   margin-bottom: 2%;
 }
-.aboutAuthor{
+.aboutAuthor {
   font-family: Barlow;
   font-size: 18px;
   line-height: 28px;
@@ -84,18 +100,27 @@
     left: 10%; */
   }
   .blogDetailsSection h1 {
-    margin-top: 22%;
-    font-size: 40px;
+    margin-top: 15%;
+    font-size: 36px;
     line-height: 40px;
   }
   .blogDetailsSection {
     padding: 5% 5%;
   }
-  .authorSection{
+  .blogDate {
+    margin: 0% !important;
+    font-size: 18px !important;
+    line-height: 21px;
+  }
+  .blogSubInfo > p {
+    font-size: 18px !important;
+  }
+  .authorSection {
     padding: 0% 5%;
     margin-bottom: 3rem;
   }
-  .authorContainer{
+
+  .authorContainer {
     flex-direction: column;
   }
 }
@@ -103,7 +128,7 @@
 @media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
   .blogDetailsSection {
     padding: 5% 10%;
-    margin-top: 15%;
+    margin-top: 5%;
   }
   .blogBannerImg {
     width: 80%;
@@ -112,7 +137,7 @@
     /* bottom: -30% !important;
     left: 10%; */
   }
-  .authorSection{
+  .authorSection {
     padding: 0% 10%;
     margin-bottom: 3rem;
   }
@@ -121,12 +146,16 @@
     height: 390px !important;
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1448px) {
+@media only screen and (min-device-width: 1025px) and (max-device-width: 1448px) {
+
   .blogDetailsSection {
     padding: 5% 15%;
     margin-top: 15%;
   }
-  .authorSection{
+  .blogDetailsSection h1 {
+    margin-top: 0% !important;
+  }
+  .authorSection {
     padding: 0% 11%;
     margin-bottom: 3rem;
   }

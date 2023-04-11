@@ -3,8 +3,8 @@ import ShareButton from "../../Share/ShareButton/ShareButton";
 import { Link } from "react-router-dom";
 import carloni from "../../../Asset/Page1/carloni.png";
 import "./AboutCarloni.css";
-import arrow from "../../../Asset/Page1/Arrow 1.png"
-
+import arrow from "../../../Asset/Page1/Arrow 1.png";
+import { BsArrowRight } from "react-icons/bs";
 
 const AboutCarloni = () => {
   return (
@@ -30,14 +30,15 @@ const AboutCarloni = () => {
 
           <p className="mt-5">-You've Come To The Right Place.</p>
           <div className="btnSection my-5 flex items-center">
-            <button className="btn btn-outline carloniBtn">
+            <button className="btn btn-outline hover:bg-white hover:text-slate-900 px-7 carloniBtn">
               <Link to="/">Read More</Link>
             </button>
-            <p className="ms-5 text-yellow-200 flex">About Rene Carluni <img src={arrow} alt="arrow" className="ms-3 w-10"></img></p>
+            <p className="rightArrow ms-5 my-auto text-yellow-200 flex">
+             <p> About Rene Carluni</p>
+              <BsArrowRight className="rArrow"/>
+            </p>
           </div>
-          <div className="boxArrow">
-             
-          </div>
+          <div className="boxArrow"></div>
         </div>
       </div>
     </div>

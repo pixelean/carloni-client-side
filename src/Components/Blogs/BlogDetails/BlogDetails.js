@@ -34,10 +34,14 @@ const BlogDetails = () => {
         <div className="blogDetailsSection">
           <h1>{blog?.name}</h1>
 
+          <div className="blogSubInfo">
+            <h1 className="blogDate">14-10-2022</h1>
+            <p className="">By {blog.author}</p>
+          </div>
+
           <div className="blogDevider">
             <hr></hr>
           </div>
-          <h1>{blog?.date}</h1>
 
           {/* <p>{blog?.description}</p> */}
           {blog?.description?.map((d) => (
@@ -55,7 +59,7 @@ const BlogDetails = () => {
             <img src={blog.authorImg} alt=""></img>
             <div className="author ml-5">
               <p>{blog.author}</p>
-              <h5 className="authorName">{blog.authorName}</h5>
+              <h5 className="">{blog.authorName}</h5>
               <p className="aboutAuthor">{blog.aboutAuthor}</p>
             </div>
           </div>
