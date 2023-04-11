@@ -32,7 +32,7 @@ const ServicesDetails = () => {
       <div className="ServiceDetailsSection">
       
         <div className="DetailsHeading">
-          <h1>Home <span className="underlineArrow">Purchases</span></h1>
+          <h1>Home <span className="underlineArrow">{data?.name}</span></h1>
           <p>
             Our brokers work with banks, credit unions, online lenders, private
             companies <br /> and many others to find the mortgage that is best
@@ -46,7 +46,7 @@ const ServicesDetails = () => {
           <div className="detailsTinyBox">
           
           </div>
-          <h1>{data?.name}</h1>
+          <h1 className="header">{data?.header}</h1>
           <p>
           {data?.description}
           </p>
