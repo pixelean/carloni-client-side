@@ -126,8 +126,8 @@ const SignUp = () => {
               className=" bg-yellow-300 font-bold border-0 py-2 px-8 focus:outline-none  rounded text-lg"
             ></input>
 
-            <span className="text-green-400 mb-2">{successMgs}</span>
-            <span className="text-red-400 mb-2">{errorMgs}</span>
+            <span className="text-green-400 mt-4">{successMgs}</span>
+            <span className="text-red-400 mt-4">{errorMgs}</span>
           </form>
         </div>
       </section>

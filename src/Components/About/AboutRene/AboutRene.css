@@ -3,6 +3,7 @@
   /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
   background-image: url("../../../Asset/AboutPage/Group\ 41697.png");
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .reni-section {
@@ -14,12 +15,6 @@
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 2rem;
-}
-
-.sideObject {
-  background-image: url("../../../Asset/AboutPage/Vector\ 17.png");
-  background-repeat: no-repeat;
-  background-position: left bottom;
 }
 
 .carloniBtn {
@@ -34,8 +29,23 @@
   color: white;
 }
 
-@media only screen and (max-width: 600px) {
+.sideObject {
+  position: absolute;
+  background-image: url("../../../Asset/AboutPage/Rectangle 36 (1).png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  top: -5%;
+  right: 0%;
+  background-color: #f5f05e;
+  height: 80px;
+  width: 80px;
+  z-index: -1;
+}
 
+@media only screen and (max-width: 600px) {
+.reneContainer {
+margin-top: 8%;
+}
   .reni-section {
     padding: 5% 5%;
   }
@@ -70,6 +80,9 @@
 --------------------------------------*/
 
 @media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+.reneContainer {
+margin-top: 3%;
+}
   .reni-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

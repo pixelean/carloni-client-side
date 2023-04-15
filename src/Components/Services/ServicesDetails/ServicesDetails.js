@@ -32,7 +32,7 @@ const ServicesDetails = () => {
       <div className="ServiceDetailsSection">
       
         <div className="DetailsHeading">
-          <h1>Home <span className="underlineArrow">{data?.name}</span></h1>
+          <h1><span className="underlineArrow">{data?.name}</span></h1>
           <p>
             Our brokers work with banks, credit unions, online lenders, private
             companies <br /> and many others to find the mortgage that is best

@@ -22,7 +22,7 @@ const BlogList = () => {
       <div className="blogsList">
         {blogs.map((blog) => (
           <div
-            className="blogCard rounded overflow-hidden shadow-lg"
+            className="blogCard rounded overflow-hidden"
             key={blog.id}
             onClick={() => handleBlogDetails(blog.id)}
           >

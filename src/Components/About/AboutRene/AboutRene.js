@@ -35,8 +35,8 @@ const AboutRene = () => {
               understand their needs and offer the best possible financial
               advice and positioning while incorporating the lowest possible
               rate.
-              
-               {/* This allows his clients to move forward in whichever life
+
+              {/* This allows his clients to move forward in whichever life
               and housing decision fits their needs with confidence, while
               keeping more money in their pocket. */}
             </p>
@@ -54,6 +54,8 @@ const AboutRene = () => {
               entire country.
             </p> */}
           </div>
+
+          
         </div>
       </div>
     </div>

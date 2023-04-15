@@ -56,7 +56,7 @@ const Services = () => {
   return (
     <div className="servicesContainer">
       <div className="text-center my-10">
-        <h3 className="serviceTitle font-bold text-5xl ">
+        <h3 className="serviceTitle ">
           <span></span> Penticton Morgage Service
         </h3>
         <p className="serviceSubTitile">

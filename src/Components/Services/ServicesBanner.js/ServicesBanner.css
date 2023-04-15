@@ -64,7 +64,11 @@
   }
 
   .serviceContent>h3 {
-    font-size: medium;
+    Font-family: Barlow;
+    font-weight: 600;
+    Font-size: 36px;
+    Line-height: 43px;
+
   }
 }
 
@@ -79,13 +83,12 @@
   }
 
   .serviceContent>h2 {
-    font-size: 48px;
+    font-size: 46px;
   }
 
   .serviceContent>h3 {
     font-size: 28px;
     font-weight: 600;
-
   }
 }
 
