@@ -6,7 +6,7 @@ import "./AboutCarloni.css"
 const AboutCarloni = () => {
   return (
     <div className="aboutCarloni gap-x-10">
-      <div className=" carloniDetails">
+      <div className="carloniDetails">
         <h1 className="">
           About <span className="underlineArrow ">Carloni Mortgage</span>
         </h1>

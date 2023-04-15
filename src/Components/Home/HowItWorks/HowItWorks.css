@@ -126,6 +126,10 @@
     background-size: cover;
   }
 
+  .how-work-heading {
+    padding-bottom: 36px;
+  }
+
   .how-work-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -161,12 +165,13 @@
     padding: 5% 10%;
     background-size: cover;
   }
-.how-work-heading {
-  padding-top: 52px;
-  font-size: 32px;
-  line-height: 42px;
-padding-bottom: 32px;
-}
+
+  .how-work-heading {
+    padding-top: 52px;
+    font-size: 32px;
+    line-height: 42px;
+    padding-bottom: 32px;
+  }
 
   .how-work {
     transition: background-color 0.5s ease;

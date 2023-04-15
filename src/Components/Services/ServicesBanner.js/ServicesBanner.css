@@ -46,14 +46,20 @@
     grid-template-columns: repeat(1, 1fr);
     align-items: center !important;
     padding: 5% 5%;
-    height: 77rem;
+    height: 89rem;
     width: 100%;
     row-gap: 2rem;
   }
 
-  .bannerContent div {
-    font-size: x-large;
-    line-height: 15px;
+  .serviceContent>h2 {
+    Font-size: 36px;
+    Line-height: 42px;
+  }
+
+  .serviceContent>h3 {
+    Font-size: 24px !important;
+    Line-height: 28px !important;
+    color: white;
   }
 
   .bannerImg {
@@ -68,7 +74,6 @@
     font-weight: 600;
     Font-size: 36px;
     Line-height: 43px;
-
   }
 }
 

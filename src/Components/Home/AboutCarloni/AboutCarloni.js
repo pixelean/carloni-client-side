@@ -10,10 +10,10 @@ const AboutCarloni = () => {
   return (
     <div className="carloniContainer ">
       <div className="carloni-section">
-        <div className=" lg:mr-20">
+        <div className="item-1  lg:mr-20">
           <img className="aboutCarloniImg mt-[-55px]" src={carloni} alt="" />
         </div>
-        <div className=" text-white carloniContent">
+        <div className="item-2 text-white carloniContent">
           <h1 className="">
             About <span className="underlineArrow">Carloni Mortgage</span>
           </h1>
@@ -33,7 +33,7 @@ const AboutCarloni = () => {
             <button className="btn btn-outline hover:bg-white hover:text-slate-900 px-7 carloniBtn">
               <Link to="/">Read More</Link>
             </button>
-            <p className="rightArrow ms-5 my-auto text-yellow-200 flex">
+            <p className="rightArrow lg:ms-5 ms-2 2xl:ms-2 my-auto text-yellow-200 flex">
              <p> About Rene Carluni</p>
               <BsArrowRight className="rArrow"/>
             </p>

@@ -4,12 +4,15 @@
   background-image: url("../../../Asset/Page1/Rectangle13.png"),
     url("../../../Asset/Page1/Vector13.png");
   background-repeat: no-repeat;
+
 }
 
 .carloni-section {
   padding: 0% 15% 0% 15%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  /* display: flex;
+justify-content: center; */
   align-items: center;
   /* background-image: url("../../../Asset/Page1/Rectangle\ 35.png"); */
 }
@@ -53,19 +56,31 @@
 }
 
 @media only screen and (max-width: 600px) {
+/* .carloniContainer {
+  background-image: url("../../../Asset/Page1/Rectangle13.png"),
+    url("../../../Asset/Page1/Vector13.png");
+  background-repeat: no-repeat;
+
+} */
   .carloni-section {
-    padding: 5% 5% 0% 5%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    row-gap: 2rem;
+ background-image: url("../../../Asset/Page1/Rectangle13.png"),
+    url("../../../Asset/Page1/Vector13.png");
+  background-repeat: no-repeat;
+
+    padding: 0% 5% 0% 5%;
+    display: flex;
+    flex-direction: column-reverse !important;
+    row-gap: 1rem;
   }
 
   .carloni-section>div>img {
-    margin-top: 15%;
+    margin-top: -18px !important;
+    /* margin-top: 5% !important; */
   }
 
   .carloniContent>h1 {
     font-size: xx-large;
+    margin-top: 53%;
   }
 
   .carloniContent>p {
@@ -76,19 +91,24 @@
     /* height: 2500px !important;
     width: 100%;
    */
-    background-size: 185rem;
+    background-size: 198rem;
   }
 
   .boxArrow {
-    position: absolute;
+    /* position: absolute;
     background-image: url("../../../Asset/Page1/Rectangle35.png");
     background-repeat: no-repeat;
     background-position: bottom right;
-    bottom: -11%;
+    bottom: -100%;
     right: -5%;
     background-color: #f5f05e;
     height: 80px;
-    width: 80px;
+    width: 80px; */
+    display: none;
+  }
+
+  .carloniBtn {
+    padding: 3px 10px;
   }
 }
 

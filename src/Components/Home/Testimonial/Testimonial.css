@@ -21,15 +21,13 @@
 
 @media only screen and (max-width: 600px) {
   .contentTestimonial {
-    padding: 0px;
+    padding: 20px 0px;
   }
   .contentTestimonial > div > h1 {
     font-size: x-large;
     line-height: 34px;
   }
-  .contentTestimonial > div > p {
-    font-size: small;
-  }
+ 
   .contentTestimonial > div > h3 {
     font-size: small;
   }

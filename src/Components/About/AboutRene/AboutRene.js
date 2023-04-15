@@ -29,12 +29,13 @@ const AboutRene = () => {
               Rene is actively involved in real estate development, commercial
               real estate, private mortgage lending and various other finance
               companies. He has real life and professional experience with
-              complex transactions. Rene understands clients who are going
+              complex transactions. 
+              {/* Rene understands clients who are going
               through divorce, difficult family situations, business ups and
               downs and renovations. Rene can sit with a client and really
               understand their needs and offer the best possible financial
               advice and positioning while incorporating the lowest possible
-              rate.
+              rate. */}
 
               {/* This allows his clients to move forward in whichever life
               and housing decision fits their needs with confidence, while

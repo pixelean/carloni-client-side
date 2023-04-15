@@ -65,7 +65,7 @@
   }
 
   .serviceIntro div {
-    font-size: 28px;
+    font-size: 24px;
     /* line-height: 34px; */
     margin-bottom: 18px;
   }
@@ -99,7 +99,7 @@
     line-height: 30px;
   }
 
-  .servicesContainer p {
+  .servicesContainer >p {
     font-size: larger;
   }
 
