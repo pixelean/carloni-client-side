@@ -1,7 +1,7 @@
 .reneContainer {
   /* background-color:  #132F50F2;; */
   /* clip-path: polygon(0 26%, 100% 0%, 100% 100%, 0% 100%); */
-  background-image: url("../../../Asset/AboutPage/Rectangle\ 22.png"),url("../../../Asset/AboutPage/Vector\ 17.png");
+  background-image: url("../../../Asset/AboutPage/Group\ 41697.png");
   background-repeat: no-repeat;
 }
 
@@ -16,30 +16,49 @@
   column-gap: 2rem;
 }
 
+.sideObject {
+  background-image: url("../../../Asset/AboutPage/Vector\ 17.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
 .carloniBtn {
   background-color: #f5f05e;
 }
 
+.reneCarloniContent>h1 {
+  Font-family: Barlow;
+  font-weight: Bold;
+  Font-size: 42px;
+  Line-height: 50px;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
+
   .reni-section {
     padding: 5% 5%;
   }
+
   .reni-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+
   .reneCarloniContent {
     overflow: scroll;
   }
-  .reneCarloniContent > div > p {
+
+  .reneCarloniContent>div>p {
     font-size: small;
-    
+
   }
-  
-  .reneCarloniContent > h1 {
+
+  .reneCarloniContent>h1 {
     font-size: 30px;
     margin-top: 1rem;
   }
+
   .reni-section {
     flex-direction: column;
     padding: 5% 5%;
@@ -57,20 +76,25 @@
     align-items: center;
     column-gap: 1rem;
   }
+
   .aboutCarloni {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
   }
+
   .carloniDetails {
     margin-left: 1rem;
   }
+
   .reni-section {
     padding: 5% 10%;
   }
+
   .reneCarloniContent h1 {
-    font-size: 26px;
+    font-size: 32px;
   }
+
   .reneCarloniContent p {
     font-size: 16px;
   }

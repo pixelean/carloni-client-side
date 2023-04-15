@@ -58,7 +58,7 @@ const ServicesDetails = () => {
             <h3>
               Get Started on the Home Buying Process with a Simple Phone Call
             </h3>
-            <button className="bg-blue-950 btn btn-outline btn-white border-white hover:bg-white hover:text-gray-900 text-white">
+            <button className="bg-blue-950 btn px-10  btn-outline btn-white border-white hover:bg-white hover:text-gray-900 text-white">
             <FaPhone className="mr-3 rotate-90"></FaPhone> Call Now 250-493-9111
             </button>
           </div>

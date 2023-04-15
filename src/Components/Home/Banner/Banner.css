@@ -17,7 +17,7 @@
   font-family: Barlow;
   font-style: Bold;
   font-size: 62px;
-  line-height: 82px;
+  line-height: 82px ;
   line-height: 110%;
 }
 
@@ -59,12 +59,6 @@
     float: right !important;
   }
 
-  .serviceContent > h2 {
-    font-size: xx-large;
-  }
-  .serviceContent > h3 {
-    font-size: medium;
-  }
 
 }
 
@@ -80,12 +74,7 @@
   .bannerContainer {
     padding: 0% 10% !important;
   }
-  .serviceContent > h2 {
-    font-size: xx-large;
-  }
-  .serviceContent > h3 {
-    font-size: large;
-  }
+ 
   .bannerImg {
     width: 120%;
     height: 90%;

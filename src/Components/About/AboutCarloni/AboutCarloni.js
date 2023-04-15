@@ -7,7 +7,7 @@ const AboutCarloni = () => {
   return (
     <div className="aboutCarloni gap-x-10">
       <div className=" carloniDetails">
-        <h1 className="font-bold text-4xl">
+        <h1 className="">
           About <span className="underlineArrow ">Carloni Mortgage</span>
         </h1>
         <p className="mt-5">

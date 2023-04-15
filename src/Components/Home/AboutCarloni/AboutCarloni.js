@@ -14,7 +14,7 @@ const AboutCarloni = () => {
           <img className="aboutCarloniImg mt-[-55px]" src={carloni} alt="" />
         </div>
         <div className=" text-white carloniContent">
-          <h1 className="font-bold text-4xl">
+          <h1 className="">
             About <span className="underlineArrow">Carloni Mortgage</span>
           </h1>
           <p className="mt-5">

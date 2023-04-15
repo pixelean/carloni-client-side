@@ -17,12 +17,12 @@
 .tesitmonialBtn {
   display: flex;
   justify-content: center;
- 
+
 }
 .tesitmonialBtn button{
   height: 48px;
-  width: 129px !important;
-  
+  /* width: 129px !important; */
+   padding: 16px 32px;
 }
 /* .secondaryBtn{
   display: flex;

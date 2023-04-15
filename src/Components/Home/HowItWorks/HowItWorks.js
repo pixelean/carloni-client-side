@@ -4,7 +4,7 @@ import "./HowItWorks.css";
 const HowItWorks = () => {
   return (
     <div className="how-work-container">
-      <h1 className="text-white text-4xl font-semibold mb-16 text-center">
+      <h1 className="how-work-heading">
         How <span className="underlineArrow"> It Works</span>
       </h1>
       <div className="how-work-section">

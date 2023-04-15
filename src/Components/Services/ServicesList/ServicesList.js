@@ -38,9 +38,9 @@ const ServicesList = () => {
               alt="services logo"
               className="mt-[-30px] ml-5"
             ></img>
-            <div className="serviceContent px-6 py-6">
+            <div className="serviceIntro px-6 py-6">
               <div className=" mb-2 ">{service.name}</div>
-              <p className=" text-base">{service.description.substring(0, 150)}</p>
+              <p className="">{service.description.substring(0, 150)}</p>
             </div>
           </div>
         ))}

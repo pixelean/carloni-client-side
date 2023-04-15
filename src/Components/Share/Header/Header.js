@@ -35,7 +35,7 @@ const Header = () => {
           Report
         </NavLink>
       </li>
-      <Link to="/contact">
+      <Link to="/contact" className="pl-4">
         <button className="headerBtn btn btn-outline btn-white ml-10 border-white text-white bg-slate-900">
           Contact
         </button>

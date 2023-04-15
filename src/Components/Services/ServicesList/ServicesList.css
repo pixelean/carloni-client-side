@@ -4,15 +4,17 @@
   row-gap: 30px;
   column-gap: 30px;
 }
+
 .servicesContainer {
   padding: 5% 13%;
 }
 
 .servicesCard {
-  width: 407px ;
-  height: 478px ;
+  width: 407px;
+  height: 478px;
 
 }
+
 .serviceHeading {
   font-style: normal;
   font-weight: 700;
@@ -22,6 +24,7 @@
   color: #001e3e;
   font-family: Barlow;
 }
+
 .serviceDescription {
   font-weight: 400;
   font-size: 18px;
@@ -33,29 +36,49 @@
   margin-bottom: 1rem;
 }
 
+.serviceIntro>p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2D2D2D;
+}
+.serviceIntro>div {
+  font-family: 'Barlow';
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #001E3E;
+}
+
 @media only screen and (max-width: 600px) {
   .servicesList {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     row-gap: 30px;
   }
+
   .servicesCard {
-    width: 98% ;
+    width: 98%;
     height: 100%;
   }
-  .serviceContent div {
-    font-size: 28px ;
+
+  .serviceIntro div {
+    font-size: 28px;
     /* line-height: 34px; */
     margin-bottom: 18px;
   }
-  .serviceContent p {
+
+  .serviceIntro p {
     font-size: 16px !important;
   }
-  .serviceHeading {
 
+  .serviceHeading {
     font-size: 24px;
     line-height: 40px;
   }
+
   .serviceDescription {
     font-weight: 400;
     font-size: 18px;
@@ -66,23 +89,29 @@
     color: #001e3e;
     margin-bottom: 1rem;
   }
+
   .servicesContainer {
     padding: 5% 5% !important;
   }
+
   .servicesContainer h1 {
     font-size: xx-large;
     line-height: 30px;
   }
+
   .servicesContainer p {
     font-size: larger;
   }
+
   .serviceDescription {
     margin-bottom: 3rem;
   }
+
   .card-title {
     font-size: 30px;
     margin-bottom: 1rem;
   }
+
   .servicesList {
     padding: 0%;
   }
@@ -96,32 +125,38 @@
   .servicesContainer {
     padding: 5% 10% !important;
   }
+
   .servicesCard {
-    width: 98% ;
+    width: 98%;
     height: 100%;
   }
+
   .servicesList {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
     column-gap: 30px;
   }
-  
-  .serviceContent div {
-    font-size: 24px ;
+
+  .serviceIntro div {
+    font-size: 24px;
     /* line-height: 34px; */
     margin-bottom: 18px;
   }
-  .serviceContent p {
-    font-size: 16px ;
+
+  .serviceIntro p {
+    font-size: 16px;
   }
+
   .serviceHeading {
     font-size: 28px;
     line-height: 40px;
   }
+
   .serviceDescription {
     margin-bottom: 6%;
   }
+
   .servicesList {
     padding: 0%;
   }
@@ -134,12 +169,14 @@
     row-gap: 30px;
     column-gap: 30px;
   }
+
   .servicesCard {
-    width: 98% ;
+    width: 98%;
     height: 100%;
   }
-  .serviceContent div {
-    font-size: 24px ;
+
+  .serviceIntro div {
+    font-size: 24px;
     margin-bottom: 18px;
   }
 }
@@ -147,33 +184,38 @@
 @media only screen and (min-device-width: 1026px) and (max-device-width: 1480px) {
   .servicesList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 30px;
     column-gap: 30px;
   }
+
   .servicesCard {
-    width: 98% ;
+    width: 98%;
     height: 100%;
   }
-  .serviceContent div {
-    font-size: 24px ;
+
+  .serviceIntro div {
+    font-size: 24px;
     margin-bottom: 18px;
   }
 }
+
 @media only screen and (min-device-width: 1480px) and (max-device-width: 2250px) {
   .servicesList {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) ;
-    row-gap: 38px ;
-    column-gap: 0px ;
-  
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 38px;
+    column-gap: 0px;
+
   }
+
   .servicesCard {
-    width: 91% ;
+    width: 91%;
     height: 100%;
   }
-  .serviceContent div {
-    font-size: 24px ;
+
+  .serviceIntro div {
+    font-size: 24px;
     margin-bottom: 18px;
   }
 }

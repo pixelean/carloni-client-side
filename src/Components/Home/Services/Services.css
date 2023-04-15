@@ -11,10 +11,7 @@
   color: #001e3e;
   font-family: Barlow;
 }
-.card-title {
-  color: #001e3e;
-  font-family: Barlow;
-}
+
 .serviceDescription > p {
   color: #2d2d2d;
   text-align: start;
@@ -30,16 +27,26 @@
   box-shadow: rgba(28, 30, 43, 0.1) !important;
 }
 .serviceDescription > h2 {
+  color: #001e3e;
+  font-family: Barlow;
   font-size: 26px !important;
   font-family: Barlow;
   font-style: SemiBold;
   margin-bottom: 18px;
-  
+  line-height: 31px;
+}
+.serviceDescription > p {
+  color: #001e3e;
+  font-family: Barlow;
+  font-size: 16px !important;
+  font-family: Barlow;
+  font-style: SemiBold;
+  line-height: 24px;
 }
 
 .serviceSubTitile {
-  font-family: Barlow;
-  font-style: Regular;
+  font-family: 'Poppins';
+  font-weight: 400;
   font-size: 18px;
   color: #001e3e;
   margin-top: 15px;

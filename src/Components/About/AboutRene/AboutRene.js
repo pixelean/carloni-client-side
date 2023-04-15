@@ -7,12 +7,13 @@ import "./AboutRene.css";
 const AboutRene = () => {
   return (
     <div className="reneContainer ">
+      <div className="sideObject"></div>
       <div className="reni-section">
         <div className="AboutReneImg">
           <img className="reneImg" src={rene} alt="" />
         </div>
         <div className="reneCarloniContent text-white">
-          <h1 className="font-bold text-4xl">
+          <h1 className="">
             About <span className="underlineArrow ">Rene Carloni</span>
           </h1>
           <div>

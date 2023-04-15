@@ -1,22 +1,36 @@
 .how-work-container {
-  background-image: url("../../../Asset/Page1/Rectangle22.png"),
-    url("../../../Asset/Page1/Rectangle36.png");
+  background-image: url("../../../Asset/Page1/Group\ 41700.svg");
   background-repeat: no-repeat;
   /* background-position: top; */
   padding: 10% 15%;
   background-size: cover;
 }
+
 .how-work-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   row-gap: 5px;
   column-gap: 5px;
 }
+
+.how-work-heading {
+  font-family: 'Barlow';
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  padding-bottom: 96px;
+}
+
 .underlineArrow {
   background-image: url("../../../Asset/Page1/Rectangle72.png");
   background-repeat: no-repeat;
   background-position: bottom;
 }
+
 .circleArrow {
   height: 6rem;
   width: 6rem;
@@ -24,6 +38,7 @@
   border-radius: 50%;
   border: 2px solid rgba(8, 99, 197, 0.5);
 }
+
 .numberContainer {
   height: 2rem;
   width: 2rem;
@@ -42,6 +57,7 @@
   /* transform: translateY(25%); */
   transform: translate(20%, 20%);
 }
+
 /* .numberContainer:hover {
     color: #195ca5;
     background-color: white;
@@ -56,21 +72,21 @@
 .how-work:hover .circleArrow {
   height: 6rem;
   width: 6rem;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
-    ),
+      rgba(255, 255, 255, 0.5)),
     linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15));
   border-radius: 50%;
   border: 3px solid white;
-  
+
 }
+
 .how-work {
   transition: background-color 0.5s ease;
   width: 334px;
   height: 461px;
 }
+
 .how-work:hover {
   background-color: #195ca5;
 }
@@ -83,22 +99,33 @@
   margin-top: 32px;
   margin-bottom: 18px;
 }
-.how-work ~ p {
+
+.how-work~p {
   font-family: Poppins;
   font-size: 16px;
   line-height: 26px;
 }
 
 @media only screen and (max-width: 600px) {
+  .how-work-container {
+    background-image: url("../../../Asset/Page1/Rectangle22.png");
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    padding: 10% 15%;
+    background-size: cover;
+  }
+
   .how-work {
     transition: background-color 0.5s ease;
     width: 98%;
     height: 100%;
   }
+
   .how-work-container {
     padding: 5% 1%;
     background-size: cover;
   }
+
   .how-work-section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -115,27 +142,38 @@
     padding: 5% 5%;
     background-size: cover;
   }
+
   .how-work {
     transition: background-color 0.5s ease;
     width: 98%;
     height: 100%;
   }
+
   .how-work-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 10px;
   }
 }
+
 @media only screen and (min-device-width: 778px) and (max-device-width: 1034px) {
   .how-work-container {
     padding: 5% 10%;
     background-size: cover;
   }
+.how-work-heading {
+  padding-top: 52px;
+  font-size: 32px;
+  line-height: 42px;
+padding-bottom: 32px;
+}
+
   .how-work {
     transition: background-color 0.5s ease;
     width: 98%;
     height: 100%;
   }
+
   .how-work-section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -147,11 +185,13 @@
   .how-work-container {
     padding: 7% 10%;
   }
+
   .how-work {
     transition: background-color 0.5s ease;
     width: 98%;
     height: 100%;
   }
+
   .how-work-section {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
